@@ -1,0 +1,133 @@
+<!-- https://fontawesome.com/v4/icons/ -->
+<!DOCTYPE html>
+<!--standard mode-->
+<!-- del => daleted text  -->
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Fashion Store</title>
+    <meta name="description" content="This Is Fashion Store"/> <!-- under title  -->
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+</head>
+
+<body>
+    <section id="header">
+        <a href="#" onclick="h()"> <b><i> FASHION_STORE</i></b></a> 
+       <div>
+            <ul id="one">
+                <li><a href="FashionStore.html" title="Homepage" >Home</a></li>
+                <li><a href="shop.html" title="shop clothing" >Shop</a></li> 
+                <li><a href="Blog.html" >Blog</a></li>
+                <li><a href="about.html" title="About on the site" >About</a></li>
+                <li><a href="contact.html" title="contact on the site">contacts</a></li>
+                <li><a href="shoppingcart.html" title="ShoppingCart" class="active"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></li>
+
+                <!-- target ="_blank"=> open another page -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header"  class="about-header">
+        <h2>#Let's_Talk</h2>
+        <p>LEAVE A MESSAGE, WE LOVE TO HEAR FROM YOU!</p>
+      
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+               <tr>
+                 <td>Remove</td>
+                 <td>Image</td>
+                 <td>Product</td>
+                 <td>Price</td>
+                 <td>Quantity</td>
+                 <td>Subtotal</td>
+               </tr> 
+            </thead>
+            <tbody>
+             <tr>
+                <td><a href="#"><i class="fa fa-ban" aria-hidden="true"></i></a></i></td>
+                <td><img src="img/products/f1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$132</td>
+                <td><input type="number" value="1"></td>
+                <td ><input type="text" id="num1" value="132" ></td>
+             </tr>
+             <tr>
+                <td><a href="#"><i class="fa fa-ban" aria-hidden="true"></i></a></i></td>
+                <td><img src="img/products/f2.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$132</td>
+                <td><input type="number" value="1"></td>
+                <td ><input type="text" id="num2" value="132"></td>
+             </tr>
+             <tr>
+                <td><a href="#"><i class="fa fa-ban" aria-hidden="true"></i></a></i></td>
+                <td><img src="img/products/f3.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$132</td>
+                <td><input type="number" value="1"></td>
+                <td ><input type="text" id="num3" value="132" ></td>
+             </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon" id="ca" > <br> 
+               <p id="car"></p> 
+               <button id="bu" class="normal" onclick="c()">Apply</button>
+                
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$33</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td id="shop1"><strong></strong></td>
+                </tr>
+            </table>
+            <button id='lol'class="normal" onclick="x()">Proceed to checkout </button>
+            <br>
+            <p id="lolo"></p>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+       <div class="col">
+        <b><i> FASHION_STORE</i></b>
+        <h4>Contact</h4>
+        <p> <strong>Address:</strong> Red Sea , Hurghada , 562 ElHegaz street</p>
+        <p> <strong>Phone:</strong> +20 1090072486 /0653542942</p>
+        <p> <strong>Hours:</strong> 10:00 - 23:99 ,Sat-Thurs</p>
+        <div class="folow">
+            <h4>Follow Us:</h4>
+            <div class="icon">
+                <i><a href="https://www.facebook.com/"><img src="facebook-circled.png" alt=""></a></i>
+                <i><a href="https://www.instagram.com/"><img src="instagram-new.png" alt=""></a></i>
+                <i><a href="https://web.whatsapp.com/"><img src="whatsapp.png" alt=""></a></i>
+            </div>
+        </div>
+       </div>
+    </footer>
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
